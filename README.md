@@ -33,7 +33,7 @@ Create now a set of new variables based on the variable *list*. In total create 
 
 * Find the minimum element *min* in *list*.
 * Find the maximum element *max* in *list*.
-* Save the ordered array as a `List&lt;int&gt;` in *ordered*.
+* Save the ordered array as a `List<int>` in *ordered*.
 * Save all odd elements of *list* in *onlyodd*.
 * Take only the 10 elements after the first 15 elements and save them as an array in *elements*.
 * Take the first element that is bigger than 999 and save it in *hulk*.
