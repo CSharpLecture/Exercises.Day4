@@ -40,12 +40,15 @@ Create now a set of new variables based on the variable *list*. In total create 
 
 ## 20. A custom user control
 
-Create a custom user control that contains a `Timer` control and a `Label` control as well as a `Button`. The user control should do the following:
+Create a custom user control that contains a `Timer` control and a `Label` control as well as a `Button`. The user control should be a simple implementation of a timer app:
 
-* Show the button with the text "Start" and the interval time of the timer.
-* When the button is pressed the time string on the label should be updated.
-* The button should be named "Stop" now until the timer finishes (tick event).
-* The button should now display "Reset". If that is being pressed then the initial state should be shown again.
+* Show the button with the text "Start" and the label with a time indicator (e.g. "Timer: 00m : 00s").
+* When the button is pressed the time string on the label should count upwards.
+* The button should be named "Stop" now. 
+* When the button is pressed the timer stops counting.
+* The button should now display "Reset". If it is being pressed, the initial state should be shown again.
+
+Similarly, one could also implement a countdown user control.
 
 ## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
